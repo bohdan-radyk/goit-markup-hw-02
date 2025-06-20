@@ -14,7 +14,7 @@ button {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Lato", "Inter", sans-serif;
   color: #2e2f42;
   background: #fff;
 }
@@ -41,7 +41,6 @@ body {
 }
 
 .menu-item {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -55,8 +54,6 @@ body {
 }
 
 .adress-item-link {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -68,8 +65,6 @@ body {
 }
 
 .page-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -91,7 +86,6 @@ body {
 }
 
 .first-button-text {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -99,14 +93,12 @@ body {
   color: #ffffff;
 }
 .advantages-item {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 .advantages-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -117,7 +109,6 @@ body {
   background: #f4f4fd;
 }
 .team-portfolio-tittles {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -127,7 +118,6 @@ body {
 }
 
 .name-of-member {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -136,7 +126,6 @@ body {
   color: #2e2f42;
 }
 .member-position {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -144,7 +133,6 @@ body {
   color: #434455;
 }
 .portfolio-list-item {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -152,7 +140,6 @@ body {
   color: #2e2f42;
 }
 .portfolio-type-of-item {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -182,7 +169,6 @@ body {
 }
 
 .footer-overview {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
