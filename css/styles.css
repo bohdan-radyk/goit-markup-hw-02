@@ -14,7 +14,7 @@ button {
 }
 
 body {
-  font-family: "Roboto", "Lato", "Inter", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #2e2f42;
   background: #fff;
 }
@@ -22,7 +22,7 @@ body {
 
 /* --------- HEADER STYLES --------- */
 .first-logo-part {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16;
@@ -31,7 +31,7 @@ body {
   color: #4d5ae5;
 }
 .page-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16;
@@ -149,7 +149,7 @@ body {
   background: #2e2f42;
 }
 .footer-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16;
@@ -159,7 +159,7 @@ body {
   width: 115px;
 }
 .first-footer-logo-part {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16;
