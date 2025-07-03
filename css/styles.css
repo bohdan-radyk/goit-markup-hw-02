@@ -35,6 +35,28 @@ body {
   color: #2e2f42;
   background: #fff;
 }
+.container {
+  display: flex;
+  max-width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* --------- /COMMON STYLES --------- */
 
 /* --------- HEADER STYLES --------- */
@@ -47,6 +69,9 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+.page-header {
+  align-items: center;
+}
 .page-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -55,14 +80,35 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  margin-right: 76px;
 }
-
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  column-gap: 24px;
+}
+.adress-info {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.page-adress {
+  align-items: center;
+  margin-left: auto;
+}
 .menu-item {
+  display: flex;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-item:hover,
@@ -82,14 +128,19 @@ body {
 }
 
 .page-title {
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 48px;
 }
 
 .first-page {
   background: #2e2f42;
+  padding-top: 188px;
 }
 
 .order-button {
@@ -124,7 +175,23 @@ body {
 .page-about-team {
   background: #f4f4fd;
 }
+
+.team-list {
+  display: flex;
+  column-gap: 24px;
+}
+.team-member {
+  max-width: calc((100%-72px) / 4);
+  border: 1px solid red;
+}
+.team-member-img {
+  margin-bottom: 32px;
+  border-radius: 0 0 4px 4px;
+}
+
 .team-portfolio-tittles {
+  margin-bottom: 72px;
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -138,13 +205,17 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .member-position {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
+
 .portfolio-list-item {
   font-weight: 500;
   font-size: 20px;
