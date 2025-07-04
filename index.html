@@ -18,7 +18,7 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="page-nav">
           <a href="#logo" class="page-logo"><span class="first-logo-part">WEB</span>STUDIO</a>
           <ul class="menu">
@@ -43,17 +43,21 @@
     <main>
       <section class="first-page">
         <h1 id="logo" class="page-title">Effective Solutions <br />for Your Business</h1>
-        <button type="button" class="order-button">
-          <span class="first-button-text">Order Service</span>
-        </button>
+        <div class="button-container">
+          <button type="button" class="order-button">
+            <span class="first-button-text">Order Service</span>
+          </button>
+        </div>
+        
       </section>
       <section class="our-advantages">
+        <div class="container">
         <h2 class="visually-hidden">Our Advantages</h2>
         <ul class="advantages-list">
           <li class="advantages-item">
             <h3 class="advantages-title">Strategy</h3>
 
-            <p>
+            <p class="advantages-text">
               Our goal is to identify the business problem to walk away with the perfect and
               creative solution.
             </p>
@@ -80,6 +84,7 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <section class="page-about-team">
         <div class="container">
@@ -93,16 +98,23 @@
               height="260"
               class="team-member-img"
             />
-            <div class="team-container"></div>
+            <div class="team-container">
             <h3 class="name-of-member">Mark Guerrero</h3>
             <p class="member-position">Product Designer</p>
+          </div>
           </li>
 
           <li class="team-member">
-            <img src="./images/tom-ford.jpg" alt="photo of Tom Ford" width="264" height="260" />
+            <img src="./images/tom-ford.jpg" 
+            alt="photo of Tom Ford" 
+            width="264" 
+            height="260" 
+            class="team-member-img" />
+            <div class="team-container">
             <h3 class="name-of-member">Tom Ford</h3>
             <p class="member-position">Frontend Developer</p>
-          </li>
+          </div>
+        </li>
           <li class="team-member">
             <img
               src="./images/camila-garcia.jpg"
@@ -111,9 +123,12 @@
               height="260"
               class="team-member-img"
             />
+            <div class="team-container">
             <h3 class="name-of-member">Camila Garcia</h3>
             <p class="member-position">Marketing</p>
+          </div>
           </li>
+
           <li class="team-member">
             <img
               src="./images/daniel-wilson.jpg"
@@ -122,15 +137,20 @@
               height="260"
               class="team-member-img"
             />
+            <div class="team-container">
             <h3 class="name-of-member">Daniel Wilson</h3>
             <p class="member-position">UI Designer</p>
+          </div>
           </li>
         </ul>
       </section>
-      <section>
+      
+      
+      <section class="portfolio-section">
+        <div class="container">
         <h2 class="team-portfolio-tittles">Our Portfolio</h2>
         <ul class="portfolio-list">
-          <li>
+          <li class="portfolio-list-item-li">
             <img
               src="./images/photo-banking-app.jpg"
               alt="photo of banking App"
@@ -138,8 +158,10 @@
               height="300"
               class="team-member-img"
             />
+            
             <h3 class="portfolio-list-item">Banking App</h3>
             <p class="portfolio-type-of-item">App</p>
+          
           </li>
           <li>
             <img
@@ -149,8 +171,10 @@
               height="300"
               class="team-member-img"
             />
+            
             <h3 class="portfolio-list-item">Cashless Payment</h3>
             <p class="portfolio-type-of-item">Marketing</p>
+        
           </li>
           <li>
             <img
@@ -160,8 +184,10 @@
               height="300"
               class="team-member-img"
             />
+            
             <h3 class="portfolio-list-item">Meditation App</h3>
             <p class="portfolio-type-of-item">App</p>
+         
           </li>
           <li>
             <img
@@ -171,8 +197,10 @@
               height="300"
               class="team-member-img"
             />
+            
             <h3 class="portfolio-list-item">Taxi Service</h3>
             <p class="portfolio-type-of-item">Marketing</p>
+           
           </li>
           <li>
             <img
@@ -182,8 +210,10 @@
               height="300"
               class="team-member-img"
             />
+            
             <h3 class="portfolio-list-item">Screen Illustrations</h3>
             <p class="portfolio-type-of-item">Design</p>
+         
           </li>
           <li>
             <img
@@ -193,12 +223,14 @@
               height="300"
               class="team-member-img"
             />
+            
             <h3 class="portfolio-list-item">Online Courses</h3>
             <p class="portfolio-type-of-item">Marketing</p>
+          
           </li>
         </ul>
-        </div>
         
+        </div>
       </section>
     </main>
     <footer class="page-footer">
